@@ -1,0 +1,1 @@
+tellraw @s[tag=op] [{"text":"成功传送至最近的中心实体","color":"green"}]

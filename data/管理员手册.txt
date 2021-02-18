@@ -1,10 +1,25 @@
 如果你有服务器的op权限（可以输指令），请先执行/function kimskyland:op以无障碍使用本函数。
 
 # 计分板
-dummy:{var}
+dummy:{
+var 记录各项值
+temp 临时计分板
+§kmsSpX x抽方向岛屿中心间距
+§kmsSpZ z抽方向岛屿中心间距
+}
+
+#虚拟玩家
+var:{
+#kmsCreateCount 岛屿创建次数
+§kmsCenter 标记中心实体是否已经生成
+#kmsCenterY 记录最近一次的中心实体生成Y坐标
+#kmsCenterX 记录最近一次的中心实体生成X坐标
+#kmsCenterZ 记录最近一次的中心实体生成Z坐标
+}
 
 # 标签
 op 管理员标识。
+kmsCenter 中心实体标识。
 
 # 函数
 -kimskyland:{
@@ -12,4 +27,7 @@ op 管理员标识。
 	TESTMAIN 用于查看整体代码逻辑和测试复制的函数
 	op 一键配置执行者为本函数包的管理员
 	test 一般此函数包内任何目录内的test函数都是用于测试执行的函数
+	center/set 在当前位置设置中心实体
+	center/remove 移除中心实体
+	center/locate 定位到最近的中心实体
 }
