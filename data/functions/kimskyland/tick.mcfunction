@@ -1,0 +1,1 @@
+execute @a ~ ~ ~ function kimskyland:create/tick

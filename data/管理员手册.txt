@@ -4,13 +4,22 @@
 dummy:{
 var 记录各项值
 temp 临时计分板
-§kmsSpX x抽方向岛屿中心间距
-§kmsSpZ z抽方向岛屿中心间距
+timer 计时器时间值
 }
 
 #虚拟玩家
 var:{
-#kmsCreateCount 岛屿创建次数
+#kmsXw x轴方向轴长度
+#kmsZw Z轴方向轴长度
+
+#kmsSpX x抽方向岛屿中心间距
+§kmsX x抽方向与中心实体间距
+#kmsSpZ z抽方向岛屿中心间距
+§kmsZ z抽方向与中心实体间距
+
+#kmsCreateCountZ Z轴上的岛屿创建次数
+#kmsCreateCountX X轴上的岛屿创建次数
+#kmsCreateCount 总岛屿创建次数
 §kmsCenter 标记中心实体是否已经生成
 #kmsCenterY 记录最近一次的中心实体生成Y坐标
 #kmsCenterX 记录最近一次的中心实体生成X坐标

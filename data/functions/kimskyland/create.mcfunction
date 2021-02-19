@@ -1,0 +1,1 @@
+function kimskyland:create/main if @e[tag=kmsCenter]

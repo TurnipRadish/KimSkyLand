@@ -19,4 +19,17 @@ stats entity @s clear SuccessCount
 function 1 if @s[score_test=1,score_test_min=1]
 function 2 if @s[score_test=0,score_test_min=0]
 
+#开始创建空岛
+#每创建一个空岛执行一次
+function kimskyland:create/main if @e[tag=kmsCenter]
+#检测到开始后高频触发
+function kimskyland:create/tick if @e[tag=kmsCenter]
+
+#kimskyland:create/main
+function kimskyland:create/main/player/effect
+#kimskyland:create/main/player/effect
+effect @s
+tp @s @e[kmsCenter,c=1]
+tellraw @s["正在创建空岛中..."]
+
 
