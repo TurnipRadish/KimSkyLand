@@ -9,5 +9,4 @@ stats
 level.dat_old
 session.lock
 
-login/*
-pos/*
+login
