@@ -1,1 +1,0 @@
-execute @a[tag=入服,score_leaveGame_min=1] ~ ~ ~ function login:re

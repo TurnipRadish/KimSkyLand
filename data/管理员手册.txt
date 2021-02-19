@@ -5,12 +5,19 @@ dummy:{
 var 记录各项值
 temp 临时计分板
 timer 计时器时间值
+kmsOwnerX 玩家岛屿x坐标
+kmsOwnerY 玩家岛屿y坐标
+kmsOwnerZ 玩家岛屿z坐标
 }
 
 #虚拟玩家
 var:{
-#kmsXw x轴方向轴长度
-#kmsZw Z轴方向轴长度
+#kmsAxleHeadX 轴端x坐标
+#kmsAxleHeadY 轴端y坐标
+#kmsAxleHeadZ 轴端z坐标
+
+#kmsXw x轴方向轴序列长度
+#kmsZw Z轴方向轴序列长度
 
 #kmsSpX x抽方向岛屿中心间距
 §kmsX x抽方向与中心实体间距

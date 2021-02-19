@@ -13,4 +13,4 @@ scoreboard players operation §kmsZ var += #kmsCenterZ var
 scoreboard players operation @s temp = §kmsZ var
 scoreboard players operation @s temp -= #kmsZw var
 say 2
-scoreboard players tag @s add $axleEndTrue
+scoreboard players tag @s add $kmsAxleEndTrue
