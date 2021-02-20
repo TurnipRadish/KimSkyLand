@@ -1,3 +1,2 @@
-scoreboard players set §kmsCenter var 0
-
-say 1
+scoreboard players operation @s temp = §kmsX var
+scoreboard players operation @s temp -= #kmsXw var

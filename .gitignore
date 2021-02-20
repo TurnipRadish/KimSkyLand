@@ -8,5 +8,5 @@ stats
 *.dat
 level.dat_old
 session.lock
-
+# 忽略的函数
 login

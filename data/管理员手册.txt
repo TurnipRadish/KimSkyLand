@@ -36,6 +36,7 @@ var:{
 # 标签
 op 管理员标识。
 kmsCenter 中心实体标识。
+kmsHaveland 标记已经拥有空岛的玩家
 
 # 函数
 -kimskyland:{
@@ -43,7 +44,17 @@ kmsCenter 中心实体标识。
 	TESTMAIN 用于查看整体代码逻辑和测试复制的函数
 	op 一键配置执行者为本函数包的管理员
 	test 一般此函数包内任何目录内的test函数都是用于测试执行的函数
+	re 应该和login函数的re接口匹配，对重新登录的玩家重置到创建前的状态
+	tick 高频主函数
+	load 初始化函数
+
 	center/set 在当前位置设置中心实体
 	center/remove 移除中心实体
 	center/locate 定位到最近的中心实体
+	
+	create/start 创建一个属于执行者的空岛
+	create/reset 重置执行者的数据到创建前
+	create/template 空岛创建模版
+	create/finish 空岛创建完成后执行的函数
+	create/axle/one-way/head/set 设置当前位置为单向序列轴端
 }
